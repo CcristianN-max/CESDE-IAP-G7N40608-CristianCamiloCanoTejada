@@ -31,13 +31,12 @@ header h1{
 
 /* Menú principal */
 .menu-principal{
+    position: fixed;
     background-color: darkblue;
     padding: 8px;
     text-align: center;
-    position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    left: 0;
 }
 
 /* Estilo del menú principal */
@@ -59,6 +58,7 @@ main{
     margin-bottom: 30px;
 }
 
+
 /* Estilo diferente del parrafo*/
 .banner-principal p{
     font-style: italic;
@@ -79,6 +79,14 @@ main{
     margin: 10px;
     display: inline-block;
     vertical-align: top;
+    height: 400px;
+}
+
+.caja-servicio img {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 /* Estilo del pie de pagina */
@@ -135,4 +143,11 @@ footer{
     border: none;
     border-radius: 5px;
     display: inline-block;
+}
+
+/* Botón flotante WhatsApp */
+.boton-whatsapp{
+    position: sticky;
+    bottom: 20px;
+    left: 1500px;
 }
