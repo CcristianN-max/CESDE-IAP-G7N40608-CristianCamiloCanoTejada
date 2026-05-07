@@ -4,7 +4,7 @@
 
 /* Estilos generales de la página */
 body{
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -13,11 +13,31 @@ header{
     background-color: lightblue;
     padding: 20px;
     text-align: center;
+    position: relative;
+}
+
+.logo-manguito{
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
 }
 
 /* Estilo del título principal */
 header h1{
     margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+/* Menú principal */
+.menu-principal{
+    background-color: darkblue;
+    padding: 8px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
 }
 
 /* Estilo del menú principal */
@@ -28,3 +48,42 @@ header h1{
     font-weight: bold;
 }
 
+/* Estilo general del contenido principal */
+main{
+    padding:20px;
+}
+
+/* Estilo del banner */
+.banner-principal{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilo diferente del parrafo*/
+.banner-principal p{
+    font-style: italic;
+}
+
+/* Estilo del logo */
+.banner-principal img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Estilo del apartado de servicios */
+.caja-servicio{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Estilo del pie de pagina */
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
