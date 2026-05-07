@@ -43,7 +43,7 @@ header h1{
 /* Estilo del menú principal */
 .menu-principal a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 15px;
     font-weight: bold;
 }
@@ -86,4 +86,53 @@ footer{
     background-color: lightgray;
     text-align: center;
     padding: 20px;
+}
+
+/* Formulario de contacto */
+.formulario-contacto{
+    width: 500px;
+    margin: 2px auto 40px auto;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+/* Título del formulario */
+.formulario-contacto h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Texto descriptivo */
+.formulario-contacto p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+.formulario-contacto input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Estilos del area de mensaje */
+.formulario-contacto textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 120px;
+}
+
+/* Botón */
+.formulario-contacto button{
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
 }
