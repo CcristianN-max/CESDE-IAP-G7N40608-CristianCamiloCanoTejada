@@ -1,0 +1,30 @@
+.verificacion-docente{
+ border: 3px dotted purple;
+}
+
+/* Estilos generales de la página */
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Estilo del encabezado principal */
+header{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo del título principal */
+header h1{
+    margin-bottom: 15px;
+}
+
+/* Estilo del menú principal */
+.menu-principal a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-weight: bold;
+}
+
